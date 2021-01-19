@@ -10,18 +10,15 @@ Bu uygulamada  Retrofit, Glide gibi teknolojiler kullanılarak tasarlanmıştır
 
 
 # Ekran görüntüleri
-![1](https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss1.png)
-![5](https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss5.png)
-![2](https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss2.png)
-![3](https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss3.png)
-![4](https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss4.png)
-
+<img height= "400"  src="https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss1.png" />
+<img height= "400"  src="https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss2.png" />
+<img height= "400"  src="https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss3.png" />
+<img height= "400"  src="https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss4.png" />
+<img height= "400"  src="https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/ss5.png" />
 
 
 ### Projenin Mimari Yapısı
 ![cleansimplearch](https://raw.githubusercontent.com/Sirrisamet53/Android_Kopek_App/master/Photos/mimari%20paket.PNG)
-
-
 
 
 
