@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.KopekDetayActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgKapak"
+                android:layout_width="@dimen/txt_kopek_foto_genislik"
+                android:layout_height="@dimen/txt_kopek_foto_uzunluk"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/banner" />
+
+            <TextView
+                android:id="@+id/txtBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_baslik_padding"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_kopek_adi_aciklama"
+                android:textStyle="bold"
+                tools:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtIcerik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_icerik_padding"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtMicazBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_baslik_padding"
+                android:text="@string/mizac_baslik"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_mizac_baslik_"
+                android:textStyle="bold"
+                tools:text="Mizaç" />
+
+            <TextView
+                android:id="@+id/txtMizac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_icerik_padding"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtRenklerBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_baslik_padding"
+                android:text="@string/renkler_baslik"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_mizac_baslik_"
+                android:textStyle="bold"
+                tools:text="Renkler" />
+
+            <TextView
+                android:id="@+id/txtRenkler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_icerik_padding"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtKutleBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_baslik_padding"
+                android:text="@string/kutle_baslik"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_mizac_baslik_"
+                android:textStyle="bold"
+                tools:text="Kutle" />
+
+            <TextView
+                android:id="@+id/txtKutle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_icerik_padding"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/txtBoyBaslik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_baslik_padding"
+                android:text="@string/boy_baslik"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_mizac_baslik_"
+                android:textStyle="bold"
+                tools:text="Boy" />
+
+            <TextView
+                android:id="@+id/txtBoy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/detay_icerik_padding"
+                android:text="TextView" />
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

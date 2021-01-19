@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_view_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgKopekLogo"
+                android:layout_width="@dimen/kücük_foto"
+                android:layout_height="@dimen/kücük_foto"
+                android:layout_marginStart="@dimen/card_view_padding"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtKopekAdi"
+                android:layout_width="@dimen/txt_kopek_adi_genislik"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/card_view_padding"
+                android:layout_marginBottom="@dimen/card_view_padding"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_kopek_size"
+                app:layout_constraintBottom_toTopOf="@+id/txtYasamSuresi"
+                app:layout_constraintStart_toEndOf="@+id/imgKopekLogo"
+                app:layout_constraintTop_toTopOf="@+id/imgKopekLogo"
+                tools:text="Pitbull" />
+
+            <TextView
+                android:id="@+id/txtYasamSuresi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_view_padding"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_kopek_detay"
+                app:layout_constraintStart_toStartOf="@+id/txtKopekAdi"
+                app:layout_constraintTop_toBottomOf="@+id/txtKopekAdi"
+                tools:text="8 – 15 yıl" />
+
+            <TextView
+                android:id="@+id/txtKariyerineBasladigiYer"
+                android:layout_width="@dimen/txt_kariyer_genislik"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_view_padding"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="@dimen/txt_kopek_detay"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/txtYasamSuresi"
+                app:layout_constraintTop_toBottomOf="@+id/txtYasamSuresi"
+                tools:text="Amerika Birleşik Devletleri, Birleşik Krallık" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

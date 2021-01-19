@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="recylerview">0dp</dimen>
+
+    <dimen name="card_view_padding">16dp</dimen>
+
+    <dimen name="kücük_foto">100dp</dimen>
+
+    <dimen name="txt_kopek_size">25sp</dimen>
+
+    <dimen name="txt_kariyer_genislik">245dp</dimen>
+
+    <dimen name="txt_kopek_detay">14sp</dimen>
+
+    <dimen name="txt_kopek_adi_genislik">240dp</dimen>
+
+    <dimen name="txt_kopek_foto_genislik">410dp</dimen>
+    <dimen name="txt_kopek_foto_uzunluk">350dp</dimen>
+
+    <dimen name="txt_kopek_adi_aciklama">24sp</dimen>
+
+    <dimen name="txt_mizac_baslik_">20sp</dimen>
+
+    <dimen name="detay_baslik_padding">10dp</dimen>
+    <dimen name="detay_icerik_padding">12dp</dimen>
+
+</resources>

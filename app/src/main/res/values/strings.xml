@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">H5190047_SirriSametKelesFinal</string>
+    <string name="internet_uyari_baslik">İnternet erişimi yok</string>
+    <string name="internet_uyari_mesaj">İnternete bağlanmanız gerekiyor.</string>
+    <string name="internet_uyari_btn_ayarlar">Ayarlar</string>
+    <string name="internet_uyari_btn_cikis">Çıkış</string>
+
+    <string name="cikis_uyari_baslik">Uygulamadan Çık</string>
+    <string name="cikis_uyari_mesaj">Çıkmak istediğinizden emin misiniz?</string>
+    <string name="cikis_uyari_btn_evet">Evet</string>
+    <string name="cikis_uyari_btn_hayir">Hayır</string>
+
+    <string name="mizac_baslik">Mizaç</string>
+    <string name="renkler_baslik">Renkler</string>
+    <string name="kutle_baslik">Kütle</string>
+    <string name="boy_baslik">Boy</string>
+
+    <string name="progres_dialog_yazi">Yükleniyor Lütfen Bekleyiniz...</string>
+</resources>
